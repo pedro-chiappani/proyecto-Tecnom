@@ -1,0 +1,92 @@
+body{
+    background-color: #115571 !important;
+}
+
+.navbar-main {
+    margin-top: 1rem;
+}
+
+.btn-outline-personalized {
+    color: #115571;
+    border-color: #115571;
+    font-weight:500;
+}
+
+.btn-outline-personalized:hover{
+    color: #212529;
+    background-color: #115571;
+    border-color: #115571;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(17 85 113);
+}
+
+#navbarSupportedContent{
+    justify-content: space-between;
+}
+
+.container_login{
+    /* max-width: 540px;
+    margin: 1rem auto;
+    background-color: #212529;
+    padding: .5rem 0;
+    border-radius: .9rem; */
+    box-shadow: 0 0 1px 1px #efe6e6;
+
+    background-color: #212529;
+    padding: .5rem 0;
+    border-radius: .9rem;
+}
+
+.container_login,
+.container_login .dropdown-item{
+    color:white;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125 !important;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #5a5a5a;
+}
+
+.navbar-main .container-fluid .navbar-brand {
+    padding: 0;
+}
+
+.alert {
+    user-select: none;
+}
+
+.outer-container {
+  background-color: #115571 !important;
+    padding: 0 1rem;
+    max-width: 540px;
+    margin: 1rem auto;
+}
+
+.departureDate-container {
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    color: white;
+    border: solid rgb(117, 113, 113);
+    border-width: 3px;
+    text-align: center;
+}
+.modal-content{
+    background-color: #212529;
+    color:#efe6e6
+}
+
+.container_tablas .fixed-table-pagination {
+    color: white;
+}
+
+.container_tablas .fixed-table-pagination {
+    background-color: #212529;
+    border-color: #212529;
+}
