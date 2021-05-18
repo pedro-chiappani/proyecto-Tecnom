@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-proyectotecnom-dev-15047-authRole",
+      "UnauthRoleArn": "arn:aws:iam::343175072390:role/amplify-proyectotecnom-dev-15047-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::343175072390:role/amplify-proyectotecnom-dev-15047-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-proyectotecnom-dev-15047-deployment",
+      "UnauthRoleName": "amplify-proyectotecnom-dev-15047-unauthRole",
+      "StackName": "amplify-proyectotecnom-dev-15047",
+      "StackId": "arn:aws:cloudformation:us-east-2:343175072390:stack/amplify-proyectotecnom-dev-15047/9cccc380-b794-11eb-b482-0a855f8e3818",
+      "AmplifyAppId": "d2a32b9uhbyjcd"
+    },
+    "categories": {
+      "function": {
+        "mylambda": {
+          "deploymentBucketName": "amplify-proyectotecnom-dev-15047-deployment",
+          "s3Key": "amplify-builds/mylambda-4e38574166625030544f-build.zip"
+        }
+      }
+    }
+  }
+}

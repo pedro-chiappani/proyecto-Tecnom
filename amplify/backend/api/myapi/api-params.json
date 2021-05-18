@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/",
+            "lambdaFunction": "mylambda",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/"
+        }
+    ],
+    "resourceName": "myapi",
+    "apiName": "myapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "mylambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-proyectotecnom-dev-15047-authRole",
+        "unAuthRoleName": "amplify-proyectotecnom-dev-15047-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "mylambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "92f859fa"
+}
