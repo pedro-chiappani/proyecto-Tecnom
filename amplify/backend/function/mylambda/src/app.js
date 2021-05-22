@@ -79,7 +79,7 @@ app.use(function(req, res, next) {
   // `);
 });
 
-app.post('/singup', function(req,res){
+app.post('/signup', function(req,res){
   const body = req.data
   res.status(200).json({"Message": body})
 });
