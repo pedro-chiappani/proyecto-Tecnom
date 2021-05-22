@@ -15,7 +15,7 @@
       "function": {
         "mylambda": {
           "deploymentBucketName": "amplify-proyectotecnom-dev-15047-deployment",
-          "s3Key": "amplify-builds/mylambda-5341496a64454551684c-build.zip"
+          "s3Key": "amplify-builds/mylambda-6e557161304466493076-build.zip"
         }
       }
     }
