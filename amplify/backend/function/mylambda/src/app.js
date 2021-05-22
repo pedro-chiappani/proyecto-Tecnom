@@ -27,7 +27,7 @@ app.use(function(req, res, next) {
  app.get('/', function(req, res) {
   // var html = fs.readFileSync('./index.html', 'utf8')  
   // res.render('test', { html: html })
-  res.sendFile(path.resolve('./index.html'))
+  res.json({"data":"Hola mundo"}).sendFile(path.resolve('./index.html'))
   
   // Add your code here
   // res.send(`<html>
@@ -73,6 +73,11 @@ app.use(function(req, res, next) {
   // </html>
  
   // `);
+});
+
+app.post('/singup', function(req,res){
+  const body = req.data
+  
 });
  
 app.listen(3000, function() {
