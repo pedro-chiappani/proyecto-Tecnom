@@ -19,7 +19,7 @@ function signup(){
         }
     })
     .then((data) => {
-        console.log("todo bien")
+        console.log(data, "todo bien")
     })
     .catch((error) => {
         console.log(error)
